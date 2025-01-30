@@ -460,5 +460,37 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button type="button" class="modal-close">X</button>
+        <p class="modal-info">Leave your contacts and we will call you back</p>
+        <form class="form-modal">
+          <div class="inp-name">
+            <label class="mod-label" for="user-name">Name</label>
+
+            <input
+              type="text"
+              class="modal-input"
+              name="user-name"
+              id="user-name"
+            />
+            <svg class="svg-name" width="32" height="32">
+              <use href="./images/icon-name.svg#icon-name"></use>
+            </svg>
+          </div>
+          <label class="mod-label" for="user-tel">Phone</label>
+          <input type="tel" class="modal-input" name="user-tel" id="user-tel" />
+          <label class="mod-label" for="user-email">Email</label>
+          <input
+            type="email"
+            class="modal-input"
+            name="user-email"
+            id="user-email"
+          />
+
+          <button type="submit" class="btformod">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
